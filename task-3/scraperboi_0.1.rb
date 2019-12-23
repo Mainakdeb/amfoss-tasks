@@ -1,6 +1,18 @@
 require "open-uri"
 
-doc_final = open('#paste link here')
+# general link is: https://www.google.com/search?q=Key_word
+puts"Enter Keyword below:"
+
+linkboi = gets
+q = linkboi.chomp
+link=  "https://www.google.com/search?q=" + q 
+
+
+
+#puts link
+
+
+doc_final = open(link)
 
 
 
