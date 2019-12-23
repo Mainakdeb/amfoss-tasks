@@ -1,14 +1,6 @@
 require "open-uri"
 
-
-puts"Enter link below:"
-
-linkboi = gets
-q = linkboi.chomp
-link= "'" + q + "'"
-puts link
-
-doc_final = open('https://www.google.com/search?q=sachin&oq=sachin&aqs=chrome.0.69i59.2110j0j0&sourceid=chrome&ie=UTF-8')
+doc_final = open('#paste link here')
 
 
 
