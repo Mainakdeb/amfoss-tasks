@@ -1,0 +1,79 @@
+<html>
+    <body background = "Van_gogh669.jpg">
+        <h1>
+                <font color="white"> Get-it using JS </font>
+
+<input type="text" placeholder="user_name" id="user_name">
+
+    <button type="button" onclick="getInputVal();">Find GitHub user </button>
+    
+            
+   <p><font color="white">Email:</font> <br><div id="email"></div>
+
+
+    </div></br></p>
+
+    <p><font color="white">Bio:</font>
+    <br><div id="bio">
+
+    </div></br>
+
+    <p><font color="white">avatar:</font></p>
+    <img id="avatar" height="69" width="69"></img>
+
+
+    <p><font color="white"><font size="4">In case you liked the painting, its Café Terrace at Night by Van Gogh. </font></font></p>
+    
+
+<!-- The action -->
+<script>
+
+function getInputVal() {
+                
+    var login = document.getElementById("user_name").value;
+    var query = `query get_details($login: String!) {
+                    user(login: $login) {
+                        email
+                        bio
+                        avatarUrl
+                    }
+                }`
+
+
+    fetch('https://api.github.com/graphql', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'Authorization': 'bearer  a4d51625e5f743343fdc7c4da0083424888620df',
+        },
+        body: JSON.stringify({
+            query,
+            variables: { login },
+        })
+    })
+
+
+        .then(r => r.json())
+        .then(data => {
+
+                if(data.data.user!=null){
+                document.getElementById("email").innerHTML =  data.data.user.email;
+                document.getElementById("bio").innerHTML = data.data.user.bio;
+                document.getElementById("avatar").src = data.data.user.avatarUrl;
+
+                }
+
+                else{
+
+                    alert("Small error")
+
+                }
+        }).catch(function(err){
+            console.log('Error Terror', err);
+        });
+}
+
+</script></html>
+
+<!-- skidaddle -->
