@@ -15,6 +15,7 @@
   * Reading the official documentation helps a lot.
   * Handling alien languages using Google.
 ***
+
 ## Task 5:
   
   ### Hurdles Faced:
@@ -27,17 +28,18 @@
   
   * GraphQL is better than REST API, but the learning curve is steep
 ***
-## Task 7:
+## Task 6:
   
   ### Hurdles Faced:
   
-  * Didn't know what RegEx was, had to watch a few Youtube Tutorials.
-  * String input in Rust is more complicated than I imagined.
+  * Had no idea how to use an API in GO-Lang 
+  * Took some time to get used to the syntax.
+  * Couldn't figure out how to write the data in a text file
 
   ### Things I learned:
   
-  * Learnt about RegEx and its application in String validation.
-  * Learnt a thing or two about Rust-lang.
+  * Basics of Go-Lang.
+  * Learned a weird trick to bypass the annoying “declared and not used” error.
 ***
 ## Task 7:
   
@@ -94,6 +96,18 @@
   
 ***
 
+## Task 14:
+  
+  ### Hurdles Faced:
+  
+  * Didn't know some of the Linux Commands.
+  * Didn't Know what SSH was, had to google everything.
+  
+  ### Things I learned:
+  
+  * Learnt Linux commands which were previously alien to me.
+  
+***
 
 
   
