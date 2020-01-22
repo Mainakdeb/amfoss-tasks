@@ -1,5 +1,18 @@
 # amfoss-tasks
+***
 
+## Task 2:
+  
+  ### Hurdles Faced:
+  
+  * Diagonal difference was more difficult than I thought.
+  * The corner cases in the Time_converion problem were a bit tricky.
+  * Making sense out of the question statement of the Next_round problem took some time.
+  
+  ### Things I learned:
+  
+  * Brushed up basic problem solving skills
+  
 ***
 
 ## Task 3:
@@ -26,7 +39,7 @@
   
   ### Things I learned:
   
-  * GraphQL is better than REST API, but the learning curve is steep
+  * GraphQL is better than REST API, but the learning curve is steep.
 ***
 ## Task 6:
   
@@ -64,6 +77,18 @@
   
   * Stumbled upon the Tesseract OCR engine.
   * Learnt about the eval() function which evaluates math expressions.
+***
+## Task 9
+  
+  ### Hurdles Faced:
+  
+  * Had to learn HTML from scratch.
+  * Inserting links and images was a pain for me.
+  
+  ### Things I learned:
+  
+  * Web is not my cup of tea.
+  * I discovered this amazing website called w3chools which basically got me through the whole task.
 ***
 
 ## Task 11:
@@ -108,7 +133,3 @@
   * Learnt Linux commands which were previously alien to me.
   
 ***
-
-
-  
-  
