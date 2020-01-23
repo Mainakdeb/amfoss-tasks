@@ -1,20 +1,15 @@
-# EULER 1
-r = int(input(""))
+# Euler_1, fails 2 test cases, too slow
 
-def multiple_finder(n):
+t=int(input(""))
+for r in range(t):
     
-    mul_list = []
+    tot = 0
     
-    for i in range(0,n):
-        
-        if (i%3==0) or (i%5==0):
-            
-            mul_list.append(i)
-    return(sum(mul_list))       
+    N=int(input(""))
+    
+    for i in range(N):
+        if i%3==0 or i%5 == 0:
+            tot+=i
+    print(tot)
 
 
-for i in range(r):
-    
-    inp = int(input(""))
-    
-    print(multiple_finder(inp))
