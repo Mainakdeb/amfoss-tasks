@@ -6,7 +6,7 @@
   ### Hurdles Faced:
   
   * Diagonal difference was more difficult than I thought.
-  * The corner cases in the Time_converion problem were a bit tricky.
+  * The corner cases in the Time_conversion problem were a bit tricky.
   * Making sense out of the question statement of the Next_round problem took some time.
   
   ### Things I learned:
@@ -120,6 +120,22 @@
   * Reversing is fun.
   
 ***
+
+## Task 13:
+  
+  ### Hurdles Faced:
+  
+  * Handling the corner cases were a bit tricky.
+  * Time limit was a big factor.
+  * The test cases were hidden, which further increased the difficulty.
+  
+  ### Things I learned:
+  
+  * Found an interesting pattern, which aided the performance in the last problem.
+  * Project Euler forced me to optimse code (avoid dots, avoid unnecessary for loops) for performance, which I rarely       do.
+  
+***
+
 
 ## Task 14:
   
